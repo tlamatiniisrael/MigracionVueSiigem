@@ -9,6 +9,12 @@
         <div id="pleca-proceso-titulo-b">Acceso a la información</div>
       </div>
     </div>
+
+    <div class="textoAvisoObligatorio">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;Los datos marcados con * son obligatorios
+    </div>
   </form>
 </template>
 
