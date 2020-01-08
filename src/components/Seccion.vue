@@ -1,27 +1,23 @@
 <template>
   <div>
     <hr class="ui-separator ui-state-default ui-corner-all separador" />
-    <div class="ui-panelgrid ui-widget tabla-datos">
-      <div class="ui-panelgrid-content ui-widget-content ui-grid ui-grid-responsive">
-        <div class="ui-grid-row">
-          <div class="ui-panelgrid-cell ui-grid-col-2 border-right">
-            <div class="etiquetaSeccion">
-              <div>
-                <img class="icono-1" alt="Datos Personales" src="../assets/logo.png" />
-                <img class="icono-2" alt="Datos Personales" src="../assets/logo.png" />
-              </div>
-              <div>
-                <label>{{ titulo }}</label>
-              </div>
+    <div class="p-grid tabla-datos">
+        <div class="p-col-2 border-right">
+          <div class="etiquetaSeccion">
+            <div>
+              <img class="icono-1" alt="Datos Personales" src="../assets/logo.png" />
+              <img class="icono-2" alt="Datos Personales" src="../assets/logo.png" />
             </div>
-          </div>
-          <div class="ui-panelgrid-cell ui-grid-col-10">
-            <div class="panelDatos">
-              <slot></slot>
+            <div>
+              <label>{{ titulo }}</label>
             </div>
           </div>
         </div>
-      </div>
+        <div class="p-col-10">
+          <div class="panelDatos">
+            <slot></slot>
+          </div>
+        </div>
     </div>
   </div>
 </template>
@@ -34,6 +30,15 @@ export default {
 
 <style scoped>
 @charset "iso-8859-1";
+
+/* CUSTOMIZADOS PRIMEVUE */
+.p-col-2.border-right {
+  border-right: 1px #aaa solid;
+}
+
+.gp-col {
+  float: left;
+}
 
 /* INICIO ESTILOS GENERALES */
 
