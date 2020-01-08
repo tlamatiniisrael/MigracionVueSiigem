@@ -5,8 +5,8 @@
         <img src="../assets/logo.png" width="60" height="55" />
       </div>
       <div id="pleca-proceso-subtitulo-b">
-        Derechos
-        <div id="pleca-proceso-titulo-b">Acceso a la información</div>
+        {{ subtitulo }}
+        <div id="pleca-proceso-titulo-b">{{ titulo }}</div>
       </div>
     </div>
 
@@ -15,9 +15,17 @@
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       &nbsp;Los datos marcados con * son obligatorios
     </div>
+
+    <slot></slot>
   </form>
 </template>
 
+<script>
+export default {
+  props: ['titulo',
+    'subtitulo'],
+};
+</script>
 
 <style scoped>
 @charset "iso-8859-1";
