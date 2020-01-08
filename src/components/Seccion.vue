@@ -38,6 +38,12 @@ export default {
 
 .gp-col {
   float: left;
+  min-width: unset;
+  margin: 0px;
+}
+
+.ui-widget {
+  font-size: 1em;
 }
 
 /* INICIO ESTILOS GENERALES */
