@@ -80,6 +80,27 @@
 
     </Seccion>
 
+    <Seccion titulo="Conceptos">
+      <span class="p-col-12 gp-col">
+        <DataTable :value="dependencias" dataKey="claveHistorial" :rows="10">
+
+          <Column field="claveHistorial" header="Historial" :sortable="true">
+                <template #body="slotProps">
+                    <span class="p-column-title">Historial</span>
+                    {{slotProps.data.claveHistorial}}
+                </template>
+            </Column>
+            <Column field="claveServicio" header="Servicio" :sortable="true">
+                <template #body="slotProps">
+                    <span class="p-column-title">Servicio</span>
+                    {{slotProps.data.claveServicio}}
+                </template>
+            </Column>
+
+        </DataTable>
+      </span>
+    </Seccion>
+
     <Seccion titulo="Avisos"></Seccion>
     <Seccion titulo="Opciones"></Seccion>
   </Pagina>
@@ -88,13 +109,27 @@
 <script>
 import Pagina from '@/components/Pagina.vue';
 import Seccion from '@/components/Seccion.vue';
+// import Dao from '../daoServicios';
+import Dao from '../daoDependencias';
 
 export default {
   data() {
     return {
       numero: '',
       fecha: null,
+      dependencias: null,
+      data: [
+        { claveHistorial: 12347, claveServicio: 102001 },
+        { claveHistorial: 12346, claveServicio: 102002 },
+        { claveHistorial: 12345, claveServicio: 102003 },
+      ],
     };
+  },
+  mounted() {
+    // const sql = 'SELECT * FROM IC_DEPENDENCIAS';
+    // this.dependencias = Dao.select(sql);
+    this.dependencias = this.data;
+    this.dependencias = Dao.getCatalogo();
   },
   components: {
     Pagina,
