@@ -1,0 +1,382 @@
+[2020-02-12T11:38:51.809] [DEBUG] dependencias - consulta NaN SELECT * FROM IC_DEPENDENCIAS  ORDER BY DESCRIPCION
+[2020-02-12T11:38:59.935] [DEBUG] dependencias - consulta 2 SELECT * FROM IC_DEPENDENCIAS WHERE CLAVEDEPENDENCIA=:clv id 15
+[2020-02-12T11:46:14.509] [DEBUG] dependencias - consulta default SELECT * FROM IC_DEPENDENCIAS  ORDER BY DESCRIPCION
+[2020-02-12T11:46:28.757] [DEBUG] dependencias - consulta 2 SELECT * FROM IC_DEPENDENCIAS WHERE CLAVEDEPENDENCIA=:clv id 15
+[2020-02-12T11:49:43.719] [DEBUG] dependencias - consulta default SELECT * FROM IC_DEPENDENCIAS  ORDER BY DESCRIPCION
+[2020-02-12T11:49:43.821] [DEBUG] dependencias - undefined
+[2020-02-12T11:49:43.821] [DEBUG] dependencias - [
+  { name: 'CLAVEDEPENDENCIA' },
+  { name: 'DESCRIPCION' },
+  { name: 'FECHAINICIO' },
+  { name: 'FECHAFIN' },
+  { name: 'CLAVESECRETARIA' }
+]
+[2020-02-12T11:49:48.758] [DEBUG] dependencias - consulta 2 SELECT * FROM IC_DEPENDENCIAS WHERE CLAVEDEPENDENCIA=:clv id 15
+[2020-02-12T11:49:48.814] [DEBUG] dependencias - undefined
+[2020-02-12T11:49:48.814] [DEBUG] dependencias - [
+  { name: 'CLAVEDEPENDENCIA' },
+  { name: 'DESCRIPCION' },
+  { name: 'FECHAINICIO' },
+  { name: 'FECHAFIN' },
+  { name: 'CLAVESECRETARIA' }
+]
+[2020-02-12T11:51:50.722] [DEBUG] dependencias - consulta 2 SELECT * FROM IC_DEPENDENCIAS WHERE CLAVEDEPENDENCIA=:clv id 15
+[2020-02-12T11:51:50.790] [DEBUG] dependencias - [
+  { name: 'CLAVEDEPENDENCIA' },
+  { name: 'DESCRIPCION' },
+  { name: 'FECHAINICIO' },
+  { name: 'FECHAFIN' },
+  { name: 'CLAVESECRETARIA' }
+]
+[2020-02-12T11:51:53.737] [DEBUG] dependencias - consulta default SELECT * FROM IC_DEPENDENCIAS  ORDER BY DESCRIPCION
+[2020-02-12T11:51:53.798] [DEBUG] dependencias - [
+  { name: 'CLAVEDEPENDENCIA' },
+  { name: 'DESCRIPCION' },
+  { name: 'FECHAINICIO' },
+  { name: 'FECHAFIN' },
+  { name: 'CLAVESECRETARIA' }
+]
+[2020-02-12T11:54:47.013] [DEBUG] dependencias - consulta default SELECT * FROM IC_DEPENDENCIAS  ORDER BY DESCRIPCION
+[2020-02-12T11:54:47.098] [DEBUG] dependencias - [
+  { name: 'CLAVEDEPENDENCIA' },
+  { name: 'DESCRIPCION' },
+  { name: 'FECHAINICIO' },
+  { name: 'FECHAFIN' },
+  { name: 'CLAVESECRETARIA' }
+]
+[2020-02-12T11:54:50.457] [DEBUG] dependencias - consulta 2 SELECT * FROM IC_DEPENDENCIAS WHERE CLAVEDEPENDENCIA=:clv id 15
+[2020-02-12T11:54:50.509] [DEBUG] dependencias - [
+  { name: 'CLAVEDEPENDENCIA' },
+  { name: 'DESCRIPCION' },
+  { name: 'FECHAINICIO' },
+  { name: 'FECHAFIN' },
+  { name: 'CLAVESECRETARIA' }
+]
+[2020-02-12T11:54:58.846] [DEBUG] dependencias - consulta 2 SELECT * FROM IC_DEPENDENCIAS WHERE CLAVEDEPENDENCIA=:clv id 15
+[2020-02-12T11:54:58.999] [DEBUG] dependencias - [
+  { name: 'CLAVEDEPENDENCIA' },
+  { name: 'DESCRIPCION' },
+  { name: 'FECHAINICIO' },
+  { name: 'FECHAFIN' },
+  { name: 'CLAVESECRETARIA' }
+]
+[2020-02-12T11:55:03.552] [DEBUG] dependencias - consulta default SELECT * FROM IC_DEPENDENCIAS  ORDER BY DESCRIPCION
+[2020-02-12T11:55:03.617] [DEBUG] dependencias - [
+  { name: 'CLAVEDEPENDENCIA' },
+  { name: 'DESCRIPCION' },
+  { name: 'FECHAINICIO' },
+  { name: 'FECHAFIN' },
+  { name: 'CLAVESECRETARIA' }
+]
+[2020-02-12T11:55:07.531] [DEBUG] dependencias - consulta 2 SELECT * FROM IC_DEPENDENCIAS WHERE CLAVEDEPENDENCIA=:clv id 15
+[2020-02-12T11:55:07.583] [DEBUG] dependencias - [
+  { name: 'CLAVEDEPENDENCIA' },
+  { name: 'DESCRIPCION' },
+  { name: 'FECHAINICIO' },
+  { name: 'FECHAFIN' },
+  { name: 'CLAVESECRETARIA' }
+]
+[2020-02-12T11:55:08.382] [DEBUG] dependencias - consulta 2 SELECT * FROM IC_DEPENDENCIAS WHERE CLAVEDEPENDENCIA=:clv id 15
+[2020-02-12T11:55:08.435] [DEBUG] dependencias - [
+  { name: 'CLAVEDEPENDENCIA' },
+  { name: 'DESCRIPCION' },
+  { name: 'FECHAINICIO' },
+  { name: 'FECHAFIN' },
+  { name: 'CLAVESECRETARIA' }
+]
+[2020-02-12T11:55:08.913] [DEBUG] dependencias - consulta 2 SELECT * FROM IC_DEPENDENCIAS WHERE CLAVEDEPENDENCIA=:clv id 15
+[2020-02-12T11:55:09.052] [DEBUG] dependencias - [
+  { name: 'CLAVEDEPENDENCIA' },
+  { name: 'DESCRIPCION' },
+  { name: 'FECHAINICIO' },
+  { name: 'FECHAFIN' },
+  { name: 'CLAVESECRETARIA' }
+]
+[2020-02-12T11:55:09.803] [DEBUG] dependencias - consulta 2 SELECT * FROM IC_DEPENDENCIAS WHERE CLAVEDEPENDENCIA=:clv id 15
+[2020-02-12T11:55:09.852] [DEBUG] dependencias - [
+  { name: 'CLAVEDEPENDENCIA' },
+  { name: 'DESCRIPCION' },
+  { name: 'FECHAINICIO' },
+  { name: 'FECHAFIN' },
+  { name: 'CLAVESECRETARIA' }
+]
+[2020-02-12T11:55:09.958] [DEBUG] dependencias - consulta 2 SELECT * FROM IC_DEPENDENCIAS WHERE CLAVEDEPENDENCIA=:clv id 15
+[2020-02-12T11:55:10.006] [DEBUG] dependencias - [
+  { name: 'CLAVEDEPENDENCIA' },
+  { name: 'DESCRIPCION' },
+  { name: 'FECHAINICIO' },
+  { name: 'FECHAFIN' },
+  { name: 'CLAVESECRETARIA' }
+]
+[2020-02-12T11:55:10.181] [DEBUG] dependencias - consulta 2 SELECT * FROM IC_DEPENDENCIAS WHERE CLAVEDEPENDENCIA=:clv id 15
+[2020-02-12T11:55:10.228] [DEBUG] dependencias - [
+  { name: 'CLAVEDEPENDENCIA' },
+  { name: 'DESCRIPCION' },
+  { name: 'FECHAINICIO' },
+  { name: 'FECHAFIN' },
+  { name: 'CLAVESECRETARIA' }
+]
+[2020-02-12T11:55:10.620] [DEBUG] dependencias - consulta 2 SELECT * FROM IC_DEPENDENCIAS WHERE CLAVEDEPENDENCIA=:clv id 15
+[2020-02-12T11:55:10.669] [DEBUG] dependencias - [
+  { name: 'CLAVEDEPENDENCIA' },
+  { name: 'DESCRIPCION' },
+  { name: 'FECHAINICIO' },
+  { name: 'FECHAFIN' },
+  { name: 'CLAVESECRETARIA' }
+]
+[2020-02-12T11:55:10.776] [DEBUG] dependencias - consulta 2 SELECT * FROM IC_DEPENDENCIAS WHERE CLAVEDEPENDENCIA=:clv id 15
+[2020-02-12T11:55:10.830] [DEBUG] dependencias - [
+  { name: 'CLAVEDEPENDENCIA' },
+  { name: 'DESCRIPCION' },
+  { name: 'FECHAINICIO' },
+  { name: 'FECHAFIN' },
+  { name: 'CLAVESECRETARIA' }
+]
+[2020-02-12T11:55:10.955] [DEBUG] dependencias - consulta 2 SELECT * FROM IC_DEPENDENCIAS WHERE CLAVEDEPENDENCIA=:clv id 15
+[2020-02-12T11:55:11.006] [DEBUG] dependencias - [
+  { name: 'CLAVEDEPENDENCIA' },
+  { name: 'DESCRIPCION' },
+  { name: 'FECHAINICIO' },
+  { name: 'FECHAFIN' },
+  { name: 'CLAVESECRETARIA' }
+]
+[2020-02-12T11:55:11.102] [DEBUG] dependencias - consulta 2 SELECT * FROM IC_DEPENDENCIAS WHERE CLAVEDEPENDENCIA=:clv id 15
+[2020-02-12T11:55:11.150] [DEBUG] dependencias - [
+  { name: 'CLAVEDEPENDENCIA' },
+  { name: 'DESCRIPCION' },
+  { name: 'FECHAINICIO' },
+  { name: 'FECHAFIN' },
+  { name: 'CLAVESECRETARIA' }
+]
+[2020-02-12T11:55:11.251] [DEBUG] dependencias - consulta 2 SELECT * FROM IC_DEPENDENCIAS WHERE CLAVEDEPENDENCIA=:clv id 15
+[2020-02-12T11:55:11.298] [DEBUG] dependencias - [
+  { name: 'CLAVEDEPENDENCIA' },
+  { name: 'DESCRIPCION' },
+  { name: 'FECHAINICIO' },
+  { name: 'FECHAFIN' },
+  { name: 'CLAVESECRETARIA' }
+]
+[2020-02-12T11:55:11.386] [DEBUG] dependencias - consulta 2 SELECT * FROM IC_DEPENDENCIAS WHERE CLAVEDEPENDENCIA=:clv id 15
+[2020-02-12T11:55:11.440] [DEBUG] dependencias - [
+  { name: 'CLAVEDEPENDENCIA' },
+  { name: 'DESCRIPCION' },
+  { name: 'FECHAINICIO' },
+  { name: 'FECHAFIN' },
+  { name: 'CLAVESECRETARIA' }
+]
+[2020-02-12T11:55:11.551] [DEBUG] dependencias - consulta 2 SELECT * FROM IC_DEPENDENCIAS WHERE CLAVEDEPENDENCIA=:clv id 15
+[2020-02-12T11:55:11.601] [DEBUG] dependencias - [
+  { name: 'CLAVEDEPENDENCIA' },
+  { name: 'DESCRIPCION' },
+  { name: 'FECHAINICIO' },
+  { name: 'FECHAFIN' },
+  { name: 'CLAVESECRETARIA' }
+]
+[2020-02-12T11:55:11.718] [DEBUG] dependencias - consulta 2 SELECT * FROM IC_DEPENDENCIAS WHERE CLAVEDEPENDENCIA=:clv id 15
+[2020-02-12T11:55:11.771] [DEBUG] dependencias - [
+  { name: 'CLAVEDEPENDENCIA' },
+  { name: 'DESCRIPCION' },
+  { name: 'FECHAINICIO' },
+  { name: 'FECHAFIN' },
+  { name: 'CLAVESECRETARIA' }
+]
+[2020-02-12T11:55:11.982] [DEBUG] dependencias - consulta 2 SELECT * FROM IC_DEPENDENCIAS WHERE CLAVEDEPENDENCIA=:clv id 15
+[2020-02-12T11:55:12.132] [DEBUG] dependencias - [
+  { name: 'CLAVEDEPENDENCIA' },
+  { name: 'DESCRIPCION' },
+  { name: 'FECHAINICIO' },
+  { name: 'FECHAFIN' },
+  { name: 'CLAVESECRETARIA' }
+]
+[2020-02-12T11:55:58.807] [DEBUG] dependencias - consulta 2 SELECT * FROM IC_DEPENDENCIAS WHERE CLAVEDEPENDENCIA=:clv id 13
+[2020-02-12T11:55:58.867] [DEBUG] dependencias - [
+  { name: 'CLAVEDEPENDENCIA' },
+  { name: 'DESCRIPCION' },
+  { name: 'FECHAINICIO' },
+  { name: 'FECHAFIN' },
+  { name: 'CLAVESECRETARIA' }
+]
+[2020-02-12T12:03:56.284] [DEBUG] dependencias - consulta default SELECT * FROM IC_DEPENDENCIAS  ORDER BY DESCRIPCION
+[2020-02-12T12:03:56.465] [DEBUG] dependencias - [
+  { name: 'CLAVEDEPENDENCIA' },
+  { name: 'DESCRIPCION' },
+  { name: 'FECHAINICIO' },
+  { name: 'FECHAFIN' },
+  { name: 'CLAVESECRETARIA' }
+]
+[2020-02-12T12:04:01.017] [DEBUG] dependencias - consulta 2 SELECT * FROM IC_DEPENDENCIAS WHERE CLAVEDEPENDENCIA=:clv id 13
+[2020-02-12T12:04:01.074] [DEBUG] dependencias - [
+  { name: 'CLAVEDEPENDENCIA' },
+  { name: 'DESCRIPCION' },
+  { name: 'FECHAINICIO' },
+  { name: 'FECHAFIN' },
+  { name: 'CLAVESECRETARIA' }
+]
+[2020-02-12T12:04:03.854] [DEBUG] dependencias - consulta default SELECT * FROM IC_DEPENDENCIAS  ORDER BY DESCRIPCION
+[2020-02-12T12:04:04.013] [DEBUG] dependencias - [
+  { name: 'CLAVEDEPENDENCIA' },
+  { name: 'DESCRIPCION' },
+  { name: 'FECHAINICIO' },
+  { name: 'FECHAFIN' },
+  { name: 'CLAVESECRETARIA' }
+]
+[2020-02-12T12:04:06.275] [DEBUG] dependencias - consulta 2 SELECT * FROM IC_DEPENDENCIAS WHERE CLAVEDEPENDENCIA=:clv id 13
+[2020-02-12T12:04:06.333] [DEBUG] dependencias - [
+  { name: 'CLAVEDEPENDENCIA' },
+  { name: 'DESCRIPCION' },
+  { name: 'FECHAINICIO' },
+  { name: 'FECHAFIN' },
+  { name: 'CLAVESECRETARIA' }
+]
+[2020-02-12T13:22:18.815] [DEBUG] dependencias - consulta default SELECT * FROM IC_DEPENDENCIAS  ORDER BY DESCRIPCION
+[2020-02-12T13:22:19.077] [DEBUG] dependencias - [
+  { name: 'CLAVEDEPENDENCIA' },
+  { name: 'DESCRIPCION' },
+  { name: 'FECHAINICIO' },
+  { name: 'FECHAFIN' },
+  { name: 'CLAVESECRETARIA' }
+]
+[2020-02-12T13:22:23.157] [DEBUG] dependencias - consulta 2 SELECT * FROM IC_DEPENDENCIAS WHERE CLAVEDEPENDENCIA=:clv id 13
+[2020-02-12T13:22:23.209] [DEBUG] dependencias - [
+  { name: 'CLAVEDEPENDENCIA' },
+  { name: 'DESCRIPCION' },
+  { name: 'FECHAINICIO' },
+  { name: 'FECHAFIN' },
+  { name: 'CLAVESECRETARIA' }
+]
+[2020-02-12T13:22:28.246] [DEBUG] dependencias - consulta 2 SELECT * FROM IC_DEPENDENCIAS WHERE CLAVEDEPENDENCIA=:clv id 13
+[2020-02-12T13:22:28.415] [DEBUG] dependencias - [
+  { name: 'CLAVEDEPENDENCIA' },
+  { name: 'DESCRIPCION' },
+  { name: 'FECHAINICIO' },
+  { name: 'FECHAFIN' },
+  { name: 'CLAVESECRETARIA' }
+]
+[2020-02-12T13:22:34.608] [DEBUG] dependencias - consulta default SELECT * FROM IC_DEPENDENCIAS  ORDER BY DESCRIPCION
+[2020-02-12T13:22:34.832] [DEBUG] dependencias - [
+  { name: 'CLAVEDEPENDENCIA' },
+  { name: 'DESCRIPCION' },
+  { name: 'FECHAINICIO' },
+  { name: 'FECHAFIN' },
+  { name: 'CLAVESECRETARIA' }
+]
+[2020-02-12T14:22:37.633] [DEBUG] dependencias - consulta default SELECT * FROM IC_DEPENDENCIAS  ORDER BY DESCRIPCION
+[2020-02-12T14:22:37.950] [DEBUG] dependencias - [
+  { name: 'CLAVEDEPENDENCIA' },
+  { name: 'DESCRIPCION' },
+  { name: 'FECHAINICIO' },
+  { name: 'FECHAFIN' },
+  { name: 'CLAVESECRETARIA' }
+]
+[2020-02-12T14:23:09.953] [DEBUG] dependencias - consulta default SELECT * FROM IC_DEPENDENCIAS  ORDER BY DESCRIPCION
+[2020-02-12T14:23:10.753] [DEBUG] dependencias - [
+  { name: 'CLAVEDEPENDENCIA' },
+  { name: 'DESCRIPCION' },
+  { name: 'FECHAINICIO' },
+  { name: 'FECHAFIN' },
+  { name: 'CLAVESECRETARIA' }
+]
+[2020-02-12T14:26:50.288] [DEBUG] dependencias - consulta default SELECT * FROM IC_DEPENDENCIAS  ORDER BY DESCRIPCION
+[2020-02-12T14:26:50.495] [DEBUG] dependencias - [
+  { name: 'CLAVEDEPENDENCIA' },
+  { name: 'DESCRIPCION' },
+  { name: 'FECHAINICIO' },
+  { name: 'FECHAFIN' },
+  { name: 'CLAVESECRETARIA' }
+]
+[2020-02-12T14:29:35.575] [DEBUG] dependencias - consulta default SELECT * FROM IC_DEPENDENCIAS  ORDER BY DESCRIPCION
+[2020-02-12T14:29:35.680] [DEBUG] dependencias - [
+  { name: 'CLAVEDEPENDENCIA' },
+  { name: 'DESCRIPCION' },
+  { name: 'FECHAINICIO' },
+  { name: 'FECHAFIN' },
+  { name: 'CLAVESECRETARIA' }
+]
+[2020-02-12T14:31:43.830] [DEBUG] dependencias - consulta default SELECT * FROM IC_DEPENDENCIAS  ORDER BY DESCRIPCION
+[2020-02-12T14:31:43.901] [DEBUG] dependencias - [
+  { name: 'CLAVEDEPENDENCIA' },
+  { name: 'DESCRIPCION' },
+  { name: 'FECHAINICIO' },
+  { name: 'FECHAFIN' },
+  { name: 'CLAVESECRETARIA' }
+]
+[2020-02-12T14:33:02.515] [DEBUG] dependencias - consulta default SELECT * FROM IC_DEPENDENCIAS  ORDER BY DESCRIPCION
+[2020-02-12T14:33:02.586] [DEBUG] dependencias - [
+  { name: 'CLAVEDEPENDENCIA' },
+  { name: 'DESCRIPCION' },
+  { name: 'FECHAINICIO' },
+  { name: 'FECHAFIN' },
+  { name: 'CLAVESECRETARIA' }
+]
+[2020-02-12T14:35:41.188] [DEBUG] dependencias - consulta default SELECT * FROM IC_DEPENDENCIAS  ORDER BY DESCRIPCION
+[2020-02-12T14:35:41.255] [DEBUG] dependencias - [
+  { name: 'CLAVEDEPENDENCIA' },
+  { name: 'DESCRIPCION' },
+  { name: 'FECHAINICIO' },
+  { name: 'FECHAFIN' },
+  { name: 'CLAVESECRETARIA' }
+]
+[2020-02-12T14:36:04.413] [DEBUG] dependencias - consulta default SELECT * FROM IC_DEPENDENCIAS  ORDER BY DESCRIPCION
+[2020-02-12T14:36:04.478] [DEBUG] dependencias - [
+  { name: 'CLAVEDEPENDENCIA' },
+  { name: 'DESCRIPCION' },
+  { name: 'FECHAINICIO' },
+  { name: 'FECHAFIN' },
+  { name: 'CLAVESECRETARIA' }
+]
+[2020-02-12T14:47:45.641] [DEBUG] dependencias - consulta default SELECT * FROM IC_DEPENDENCIAS  ORDER BY DESCRIPCION
+[2020-02-12T14:47:45.710] [DEBUG] dependencias - [
+  { name: 'CLAVEDEPENDENCIA' },
+  { name: 'DESCRIPCION' },
+  { name: 'FECHAINICIO' },
+  { name: 'FECHAFIN' },
+  { name: 'CLAVESECRETARIA' }
+]
+[2020-02-12T14:53:18.174] [DEBUG] dependencias - consulta default SELECT * FROM IC_DEPENDENCIAS  ORDER BY DESCRIPCION
+[2020-02-12T14:53:18.347] [DEBUG] dependencias - [
+  { name: 'CLAVEDEPENDENCIA' },
+  { name: 'DESCRIPCION' },
+  { name: 'FECHAINICIO' },
+  { name: 'FECHAFIN' },
+  { name: 'CLAVESECRETARIA' }
+]
+[2020-02-12T14:53:55.847] [DEBUG] dependencias - consulta default SELECT * FROM IC_DEPENDENCIAS  ORDER BY DESCRIPCION
+[2020-02-12T14:53:56.015] [DEBUG] dependencias - [
+  { name: 'CLAVEDEPENDENCIA' },
+  { name: 'DESCRIPCION' },
+  { name: 'FECHAINICIO' },
+  { name: 'FECHAFIN' },
+  { name: 'CLAVESECRETARIA' }
+]
+[2020-02-12T14:54:56.253] [DEBUG] dependencias - consulta default SELECT * FROM IC_DEPENDENCIAS  ORDER BY DESCRIPCION
+[2020-02-12T14:54:56.326] [DEBUG] dependencias - [
+  { name: 'CLAVEDEPENDENCIA' },
+  { name: 'DESCRIPCION' },
+  { name: 'FECHAINICIO' },
+  { name: 'FECHAFIN' },
+  { name: 'CLAVESECRETARIA' }
+]
+[2020-02-12T14:55:51.976] [DEBUG] dependencias - consulta default SELECT * FROM IC_DEPENDENCIAS  ORDER BY DESCRIPCION
+[2020-02-12T14:55:52.133] [DEBUG] dependencias - [
+  { name: 'CLAVEDEPENDENCIA' },
+  { name: 'DESCRIPCION' },
+  { name: 'FECHAINICIO' },
+  { name: 'FECHAFIN' },
+  { name: 'CLAVESECRETARIA' }
+]
+[2020-02-12T14:56:00.606] [DEBUG] dependencias - consulta default SELECT * FROM IC_DEPENDENCIAS  ORDER BY DESCRIPCION
+[2020-02-12T14:56:00.753] [DEBUG] dependencias - [
+  { name: 'CLAVEDEPENDENCIA' },
+  { name: 'DESCRIPCION' },
+  { name: 'FECHAINICIO' },
+  { name: 'FECHAFIN' },
+  { name: 'CLAVESECRETARIA' }
+]
+[2020-02-12T14:56:57.712] [DEBUG] dependencias - consulta default SELECT * FROM IC_DEPENDENCIAS  ORDER BY DESCRIPCION
+[2020-02-12T14:56:57.858] [DEBUG] dependencias - [
+  { name: 'CLAVEDEPENDENCIA' },
+  { name: 'DESCRIPCION' },
+  { name: 'FECHAINICIO' },
+  { name: 'FECHAFIN' },
+  { name: 'CLAVESECRETARIA' }
+]

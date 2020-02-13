@@ -4,6 +4,7 @@ import Calendar from 'primevue/calendar';
 import Button from 'primevue/button';
 import DataTable from 'primevue/datatable';
 import Column from 'primevue/column';
+import Dropdown from 'primevue/dropdown';
 
 import App from './App.vue';
 import router from './router';
@@ -20,6 +21,7 @@ Vue.component('Calendar', Calendar);
 Vue.component('Button', Button);
 Vue.component('DataTable', DataTable);
 Vue.component('Column', Column);
+Vue.component('Dropdown', Dropdown);
 
 new Vue({
   router,

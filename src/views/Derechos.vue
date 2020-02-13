@@ -80,20 +80,29 @@
 
     </Seccion>
 
+    <Seccion titulo="Registro">
+      <span class="p-col-12 gp-col">
+        <Dropdown v-model="dependencia" :options="dependencias"
+        optionLabel="DESCRIPCION" optionValue="CLAVEDEPENDENCIA"
+        placeholder="Dependencia" />
+      </span>
+    </Seccion>
+
     <Seccion titulo="Conceptos">
       <span class="p-col-12 gp-col">
-        <DataTable :value="dependencias" dataKey="claveHistorial" :rows="10">
+        <DataTable :value="dependencias" dataKey="CLAVEDEPENDENCIA"
+        :paginator="true" :rows="15">
 
-          <Column field="claveHistorial" header="Historial" :sortable="true">
+          <Column field="CLAVEDEPENDENCIA" header="Id" :sortable="true">
                 <template #body="slotProps">
-                    <span class="p-column-title">Historial</span>
-                    {{slotProps.data.claveHistorial}}
+                    <!--<span class="p-column-title">Historial</span>-->
+                    {{slotProps.data.CLAVEDEPENDENCIA}}
                 </template>
             </Column>
-            <Column field="claveServicio" header="Servicio" :sortable="true">
+            <Column field="DESCRIPCION" header="Dependencia" :sortable="true">
                 <template #body="slotProps">
-                    <span class="p-column-title">Servicio</span>
-                    {{slotProps.data.claveServicio}}
+                    <!--<span class="p-column-title">Servicio</span>-->
+                    {{slotProps.data.DESCRIPCION}}
                 </template>
             </Column>
 
@@ -109,27 +118,36 @@
 <script>
 import Pagina from '@/components/Pagina.vue';
 import Seccion from '@/components/Seccion.vue';
+import axios from 'axios';
 // import Dao from '../daoServicios';
-import Dao from '../daoDependencias';
+// import Dao from '../daoDependencias';
 
 export default {
   data() {
     return {
+      error: '',
+      dependencia: 0,
       numero: '',
       fecha: null,
       dependencias: null,
       data: [
         { claveHistorial: 12347, claveServicio: 102001 },
         { claveHistorial: 12346, claveServicio: 102002 },
-        { claveHistorial: 12345, claveServicio: 102003 },
+        { claveServicio: 102003, claveHistorial: 12345 },
       ],
     };
   },
   mounted() {
     // const sql = 'SELECT * FROM IC_DEPENDENCIAS';
     // this.dependencias = Dao.select(sql);
-    this.dependencias = this.data;
-    this.dependencias = Dao.getCatalogo();
+    // this.dependencias = this.data;
+    // this.dependencias = Dao.getCatalogo();
+    axios.get('http://10.10.43.180:3000/dependencias')
+      .then((response) => {
+        this.dependencias = response.data;
+      }).catch((error) => {
+        this.error = error;
+      });
   },
   components: {
     Pagina,

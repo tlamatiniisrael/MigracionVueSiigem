@@ -1,4 +1,7 @@
 const objoracle = require('oracledb');
+const LOG = require('./log');
+
+objoracle.outFormat = objoracle.OUT_FORMAT_OBJECT;
 
 const cns = {
   user: 'ctrlservicios',
@@ -9,14 +12,14 @@ const cns = {
 function close(cn) {
   cn.release(
     (err) => {
-      if (err) { console.log(err.message); }
+      if (err) { LOG.error(err.message); }
     },
   );
 }
 
 function error(err, rs, cn) {
   if (err) {
-    console.log(err.message);
+    LOG.error(err.message);
     rs.contentType('application/json').status(500);
     rs.send(JSON.stringify(err.message));
     if (cn != null) close(cn);
@@ -33,7 +36,8 @@ function open(sql, binds, dml, rs) {
       rs.contentType('application/json').status(200);
       if (dml) rs.send(JSON.stringify(result.rowsAffected));
       else {
-        console.log(result.metaData);
+        // LOG.debug(result.sql);
+        LOG.debug(result.metaData);
         rs.send(JSON.stringify(result.rows));
       }
       close(cn);
